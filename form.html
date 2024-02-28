@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="shortcut icon" href="Images/orcal1.PNG" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/9a59b7f9be.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Merienda:wght@300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Teko:wght@300..700&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="main">
+        <div id="signform">
+
+            <form id="formid">
+                <label class="formlabel" for="fname">First Name :- </label>
+                <br>
+                <input class="formlabel" type="text" id="fname" required placeholder="Enter first name">
+                <br />
+                <label class="formlabel" for="lname">Last Name :- </label>
+                <br>
+                <input class="formlabel" type="text" id="lname" placeholder="Enter last name">
+                <br />
+                <label  class="formlabel"for="mobileno">Mobile no :- </label>
+                <br>
+                <input class="formlabel" type="number" id="mobileno" placeholder="Enter Mobile number">
+                <br />
+                <label class="formlabel"for="email">Email :- </label>
+                <br>
+                <input class="formlabel" type="email" id="email" placeholder="Enter Mobile number">
+                <br />
+                <label class="formlabel" for="">DOB :- </label>
+                <input class="formlabel" type="datetime-local" id="email">
+                <br />
+                <label  for="">Gender :- </label>
+                <input class="formradio" type="radio" name="gen"><label for="">Male</label>
+                <input class="formradio" type="radio" name="gen" id=""><label for="">Fe-male</label>
+                <br />
+                <label for="">10+20*10 :- </label>
+                <input class="formradio"type="radio" name="gen"><label for="">300</label>
+                <input class="formradio" type="radio" name="gen" id=""><label for="">210</label>
+                <input class="formradio" type="radio" name="gen" id=""><label for="">150</label>
+                <input class="formradio" type="radio" name="gen" id=""><label for="">100</label>
+                <br />
+                <label for="file">Upload Images</label>
+                <input type="file" name="" id="file">
+                <br>
+                <label for="password">password :- </label><br>
+                <input class="formlabel "type="password" id="password" placeholder="Enter password"><br>
+                <label  for="passwordc">confrim password :- </label><br>
+                <input class="formlabel" type="password" id="passwordc" placeholder="Enter confrim password"><br>
+                <input type="checkbox" name="" id=""> <label for="">I have read & T&C</label><br>
+                <input type="checkbox" name="" id=""> <label for="">I am accepting T&C</label><br>
+                <input class="formlabel" type="range" name="" id=""><br>
+                <input type="color" name="" id=""><br>
+                <input class="formlabel" type="url" name="" id=""><br>
+                <select class="formlabel" name="" id="">
+                    <option value="" hidden>---Select---</option>
+                    <option value="">JAVA</option>
+                    <option value="">JAVASCRIPT</option>
+                </select>
+
+
+                <br>
+              
+
+                <label  for="">Feedback</label>
+                <br>
+                <textarea class="formlabel" name="" id="" cols="10" rows="10"></textarea>
+                <!-- <input type="submit">
+                <input type="reset"><br> -->
+
+                <button type="submit">submit</button>
+                <button type="reset">clear</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
